@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Deccan Electric Chargers</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        #map {
+            height: 50vh;
+            width: 100%;
+        }
+        #login-form {
+            height: 50vh;
+            width: 100%;
+        }
+        .loginForm {
+            text-align: center;
+            padding: 20px;
+            background-color: #44ef8b;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+    <!-- Navigation Bar -->
+    <div class="Navigation-Bar">
+    <div style="position: fixed; top: 0; left: 0; padding: 0px;">
+        <img src="Charger.png" alt="ChargeLink Logo" class="fa fa-logo ws-hover-text-green" style="position:relative;z-index:1;color:#04AA6D;" width="50" height="38"><b>Deccan Electric Charging Satations</b>
+    </div>
+        <a href="#map"  class="w3-bar-item w3-button w3-right w3-red w3-mobile">Maps</a>
+        <a href="#footer"  class="w3-bar-item w3-button w3-right w3-red w3-mobile">About</a>
+        <a href="contact.html"  class="w3-bar-item w3-button w3-right w3-red w3-mobile">Contact</a>
+        <a href="Registration.html"  class="w3-bar-item w3-button w3-right w3-red w3-mobile" >Register</a>
+        <a href="#login" class="w3-bar-item w3-button w3-right w3-red w3-mobile">Login</a>
+    </div>
+    <div id="map"></div>
+    <button id="getLocationBtn" class="w3-button w3-block w3-green w3-margin-bottom">Get My Location</button>
+    <div class="w3-row-padding" id="Introduction">
+        <div class="w3-col l4 12">
+          <h1>Tired of Searching Charging Stations</h1>
+          <h3>Try this Website </h3>
+          <h6>
+            <p>Tired of running low on battery power while on the go? Looking for a convenient and eco-friendly way to fuel up your electric vehicle? Look no further! ChargeLink is here to revolutionize your charging experience.</p>
+        <p>You are in the location (Click the above button): </p>
+        <p id="locationResult" style="color: darkgreen;"></p>
+    </div>
+    <div class="w3-col l8 12">
+        <!-- Image of location/map -->
+        <img src="Loc.gif" class="w3-image" style="width:100%;">
+      </div>
+    <script>
+        let map;
+
+        function initMap() {
+            map = new google.maps.Map(document.getElementById('map'), {
+                zoom: 15,
+                center: { lat: 0, lng: 0 }, // Default center
+            });
+        }
+
+        // Ensure that the Google Maps API script is loaded before accessing the API
+        function loadGoogleMapsScript() {
+            const script = document.createElement('script');
+            script.src = 'https://maps.googleapis.com/maps/api/js?key=AIzaSyABaZ0A1021jm-vyTBx8aO8tvXOGqIhIB8&callback=initMap';
+            script.defer = true;
+            script.async = true;
+            document.body.appendChild(script);
+        }
+
+        document.getElementById('getLocationBtn').addEventListener('click', () => {
+            if ("geolocation" in navigator) {
+                navigator.geolocation.getCurrentPosition((position) => {
+                    const latitude = position.coords.latitude;
+                    const longitude = position.coords.longitude;
+
+                    // Update map center and add a marker
+                    const userLocation = { lat: latitude, lng: longitude };
+                    map.setCenter(userLocation);
+                    new google.maps.Marker({
+                        position: userLocation,
+                        map: map,
+                        title: "Your Location",
+                    });
+
+                    const locationResult = `Latitude: ${latitude}<br>Longitude: ${longitude}`;
+                    document.getElementById('locationResult').innerHTML = locationResult;
+                });
+            } else {
+                document.getElementById('locationResult').innerHTML = "Geolocation is not available on this device.";
+            }
+        });
+
+        // Load the Google Maps API script
+        loadGoogleMapsScript();
+    </script>
+    <div>
+        <button id="findChargingStationsBtn" class="w3-button w3-block w3-green w3-margin-bottom">Get Near By Charging Stations</button>
+    </div>
+   <script>
+        document.getElementById('findChargingStationsBtn').addEventListener('click', () => {
+            window.location.href = "maps.html"; // Redirect to the map page
+        });
+    </script>
+    <div class="w3-row-padding" id="about">
+        <div>
+          <h1>Know about Chargers</h1>
+            <p>🚗 Why Choose ChargeLink? 🚗</p>
+
+                <p><b>Extensive Network:</b> With ChargeLink, you gain access to an extensive network of charging stations conveniently located near you. Whether you're navigating city streets or embarking on a road trip, finding a nearby charging station has never been easier.</p>
+                
+                <p><b>Lightning-Fast Charging:</b> Say goodbye to long waiting times. ChargeLink partners with high-speed charging stations, ensuring you get back on the road quickly. Spend less time charging and more time enjoying your journey.</p>
+                
+                <p><b>Eco-Friendly Solution:</b> Reduce your carbon footprint and contribute to a cleaner environment. ChargeLink promotes sustainable transportation by supporting electric vehicle adoption and reducing greenhouse gas emissions.</p>
+                
+                <p><b>User-Friendly Interface:</b> Our intuitive mobile app and website make locating and using charging stations a breeze. Find real-time availability, reserve spots, and track your charging progress—all at your fingertips.</p>
+                
+                <p><b>Cost Transparency:</b> No more surprises when it comes to pricing. ChargeLink provides clear information about charging costs, helping you make informed decisions and manage your budget effectively.</p>
+                
+                <p><b>Secure and Reliable:</b> ChargeLink prioritizes your safety and data privacy. Our secure payment options and trusted network of charging partners ensure a worry-free charging experience.</p>
+                
+                <p><h1>🌐 Join the Electric Revolution Today! 🌐.</h1></p>
+    </div>
+    <div class="login-form" id="login">
+        <h2 style="text-align: center;">Login</h2>
+    <form id="loginForm" class="loginForm">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required><br><br>
+        <input type="submit" value="Login"><br><br>
+    </form>
+    <script>
+        document.getElementById("loginForm").addEventListener("submit", function(event) {
+            event.preventDefault();
+        
+            var email = document.getElementById("email").value;
+            var password = document.getElementById("password").value;
+        
+            if (email === "Guduribhargava@gmail.com" && password === "123456789") {
+                window.location.href = "maps.html";
+            } else {
+                alert("Incorrect email or password");
+            }
+        });
+        
+    </script>
+    </div>
+    	<!-- footer -->
+    <div class="cpy-right-agile-w3ls" id="footer">
+        <h2>About Us</h2>
+		<p> © Find Near by Charging Stations Website. All rights reserved | Design by @ Bhargava_Veera_Bhadra_Guduru @ 2023 </p>
+        <p>This is the website to find charging stations near by arond you in India. This website only provides best charging stations near you in limited only. This website is under consideration of project done by Stalwart Team </p>
+        <p> For any quaries or issues. Please Contact below:</p>
+        <ul>
+            <li>
+                <a href="https://www.linkedin.com/in/bhargava-veera-bhadra-guduru-515a2622b/">LinkedIn</a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com/veerabhadra._.guduri/">Instagram</a>
+            </li>
+            <li>
+                <a href="contact.html">Contact</a>
+            </li>
+        </ul>
+	</div>
+    <!--/footer-->
+    <style>
+        .cpy-right-agile-w3ls {
+            text-align:left;
+            background-color:black; 
+            color:aliceblue;
+            fill-opacity: inherit;
+        }
+        .login-container {
+            text-align: center;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+        .login-container h1 {
+            margin-bottom: 20px;
+        }
+        .login-form {
+            max-width: 300px;
+            margin: 0 auto;
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        .form-group input {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .login-btn {
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</body>
+</html>

@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Deccan Electric Chargers</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        .cpy-right-agile-w3ls {
+            text-align:left;
+            background-color:black; 
+            color:aliceblue;
+            fill-opacity: inherit;
+        }
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+        }
+
+        #mapContainer {
+            height: 50vh;
+            width: 100%;
+        }
+
+        #stationsTable {
+            margin-top: 20px;
+        }
+        #map {
+            height: 50vh;
+            width: 100%;
+        }
+        .Maps_form {
+            text-align: center;
+            padding: 20px;
+            background-color: #44ef8b;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.7.1/dist/leaflet.js"></script>
+</head>
+<body>
+    <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+        <!-- Navigation Bar -->
+        <div class="Navigation-Bar">
+            <a href="index.html" class="w3-bar-item w3-button w3-red w3-mobile"></i>Login</a>
+            <a href="#map" class="scroll">Maps</a>
+            <a href="#about" class="scroll">About</a>
+            <a href="contact.html" class="scroll">Contact</a>
+            <a href="Registration.html" class="w3-bar-item w3-button w3-right w3-red w3-mobile" >Register</a>
+        </div>
+        <div id="map"></div>
+        <button onclick="showNearbyStations()" class="w3-button w3-block w3-green w3-margin-bottom">Nearby</button>
+<table id="stationsTable" border="1" width="100%">
+    <tr>
+        <th>Station</th>
+        <th>Latitude</th>
+        <th>Longitude</th>
+        <th>Price per Unit</th>
+    </tr>
+</table>
+<div id="mapContainer">
+    <div id="map" style="height: 50vh; width:100%"></div>
+</div>
+<div>
+    <p style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;color: rgb(67, 123, 220);"> Hi there , Do you want to see in the map then copy and paste the latitude and logitude below to know where the your Charging Station is... Thank You</p>
+</div>
+<form id="coordinatesForm" class="Maps_form">
+    <label for="latitude"><b>Latitude:</b></label>
+    <input type="text" id="latitude" name="latitude" placeholder="Enter latitude">
+    <br><br>
+    <label for="longitude"><b>Longitude:</b></label>
+    <input type="text" id="longitude" name="longitude" placeholder="Enter longitude">
+    <br><br>
+    <button type="button" onclick="showMap()" style="color: rgb(68, 135, 228);">Show on Map</button><br><br>
+</form>
+<div id="map"></div>
+
+<script>
+    function initMap(lat, lng) {
+        var mapOptions = {
+            center: { lat: lat, lng: lng },
+            zoom: 10
+        };
+        var map = new google.maps.Map(document.getElementById('map'), mapOptions);
+        var marker = new google.maps.Marker({
+            position: { lat: lat, lng: lng },
+            map: map
+        });
+    }
+
+    function showMap() {
+        var latitude = parseFloat(document.getElementById('latitude').value);
+        var longitude = parseFloat(document.getElementById('longitude').value);
+        if (!isNaN(latitude) && !isNaN(longitude)) {
+            initMap(latitude, longitude);
+        } else {
+            alert("Please enter valid latitude and longitude.");
+        }
+    }
+</script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyABaZ0A1021jm-vyTBx8aO8tvXOGqIhIB8&callback=initMap" async defer></script>
+<script>
+    var map = L.map('map').setView([0, 0], 13);
+
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        maxZoom: 19,
+        attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+    }).addTo(map);
+
+    function showNearbyStations() {
+        if (navigator.geolocation) {
+            navigator.geolocation.getCurrentPosition(function(position) {
+                var latitude = position.coords.latitude;
+                var longitude = position.coords.longitude;
+
+                map.setView([latitude, longitude], 13);
+
+                var sampleData = `
+Station,Latitude,Longitude,Price per Unit
+Central Park, 40.785091, -73.968285, 5
+Times Square, 40.758896, -73.985130, 8
+Empire State Building, 40.748817, -73.985428, 10
+Statue of Liberty, 40.689247, -74.044502, 12
+Brooklyn Bridge, 40.706086, -73.996864, 6
+Lakshmipuram Charging Point, 16.29381, 80.45467, 2.56
+Lingayapalem Charging Station, 16.2721, 80.39278, 5
+Ather Grid Charging Station, 16.31886, 80.4215, 2.56
+LionCharge Charging Station, 16.5054, 80.64535, 2.36
+Ather Grid Charging Station, 16.50077, 80.65063, 3.041
+Electric Vehicle Charging Station, 16.51106, 80.6757, 2.36
+Ather Grid Charging Station, 16.32625, 80.48987, 2.56
+Ather Grid Charging Station, 16.48133, 80.61112, 2.56
+Electric Vehicle Charging Station, 16.55168, 80.45584, 2.3
+Charging Zone Charging Station, 17.33339, 79.14515, 2.36
+Tata Power Station, 17.1729, 80.1564, 2.22
+Tata Charging Station, 17.57923, 78.44193, 5.23
+Charge and Drive Station, 17.52023, 78.46656, 3.25
+Vehicle Station,17.42198,78.45146, 2.96
+Charging Station, 17.45212, 78.40614, 2.96
+Electric Vehicle Charging Station, 17.4129, 78.56544, 2.3
+Charge and Drive Station, 17.45224, 78.44178, 2.369
+Zeon charging , 17.11034, 77.94125, 2.456
+Tata Charging Station, 15.5428, 78.20943, 2.569
+Electric Vehicle Charging Station, 14.38871, 76.45406, 3.65
+Electric Vehicle Charging Station, 15.0254, 76.03959, 3.256
+Ather Grid Charging Station, 15.68368, 76.45406, 3
+Bashasab service Center, 16.41001, 75.96645, 3.65
+jio-bp pulse charging station, 1.33984, 76.25902, 3.745
+GreenDrive Enterprises, 17.66872, 76.84414, 3.258
+Veev Charging Station, 11.3994, 77.05649, 2.356
+Ather Grid Charging Station, 11.16032, 76.99935, 3.56
+Electric Vehicle Charging Station, 11.08557, 76.95745, 3.45
+Zeon charging , 11.17888, 77.30829, 3.65
+Electric Vehicle Charging Station, 11.03084, 76.93842, 4.56
+Tata Power Station, 10.16135, 76.39435, 4.5
+Electric Vehicle Charging Station, 10.10236, 76.33442, 4.23
+Chalakudy, 10.23446, 76.41324, 4.36
+KSEB Charging Station, 10.10738, 76.437, 4.356
+`.trim();  // Trim removes any leading/trailing whitespace
+
+                var lines = sampleData.split('\n');
+                var tableHTML = '';
+
+                for (var i = 1; i < lines.length; i++) {
+                    var parts = lines[i].split(',');
+                    var station = parts[0];
+                    var stationLat = parseFloat(parts[1].trim());  // Trim the latitude value
+                    var stationLng = parseFloat(parts[2].trim());  // Trim the longitude value
+                    var price = parseFloat(parts[3].trim());  // Trim the price value
+
+                    var distance = L.latLng(latitude, longitude).distanceTo(L.latLng(stationLat, stationLng));
+                    if (distance <= 5000) {
+                        tableHTML += '<tr>';
+                        tableHTML += '<td>' + station + '</td>';
+                        tableHTML += '<td>' + stationLat + '</td>';
+                        tableHTML += '<td>' + stationLng + '</td>';
+                        tableHTML += '<td>' + price + '</td>';
+                        tableHTML += '</tr>';
+                    }
+                }
+                $('#stationsTable').append(tableHTML);
+            });
+        } else {
+            alert("Geolocation is not supported by this browser.");
+        }
+    }
+</script>
+<div id="about">
+    <p>
+        <b><h1>Learn about Charging Stations:</h1></b>
+    </p>
+    <p>
+        The era of Electric Vehicles (EVs) has already arrived in India. We have seen major launches in the automobile industry ranging from electric scooters like Ather 450X to electric cars such as the Tata Nexon EV. This has resulted in an increased demand for charging stations across the country. In this article, we will tell you how you can easily locate EV charging stations in India using your phone
+    </p>
+    <p>
+        The crucial factor hindering the faster adoption of electric vehicles is the charging station network which is in a nascent phase in India. However, key players like EESL, Tata Power, Ather, Ola Electric, and others are gradually setting up charging stations for proper infrastructure. Though finding a charging station in the middle of an unfamiliar road can be a task in itself. But there are a few websites and mobile apps that are doing their part to help you in finding an EV charging station near you. 
+
+        Let’s have a glance at the best ways of finding verified EV charging stations nearby.
+    </p>
+    <p>
+        <b><h1>Overview</h1></b>
+    </p>
+    <p>
+        Electric vehicles (EV) can be charged in a variety
+of ways, depending on location and requirement.
+Accordingly, charging infrastructure for EVs is of
+different types and designed for different applications.
+Specifications and standards for EV chargers, also
+known as electric vehicle supply equipment (EVSE),
+vary from one country to another, based on available
+EV models in the market and the characteristics of the
+electricity grid.
+This chapter explains the technical concepts of electric
+vehicle charging infrastructure, and highlights the
+need for a contextual approach to local planning and
+implementation of EV charging networks.
+    </p>
+    <p>
+        <b><h1>Power Rating</h1></b>
+    </p>
+    <p>
+    <p>EVSEs have different power ratings or levels based on
+charging requirements, which in turn determine the
+input power requirements for charging infrastructure.
+Table 2 categorizes EV charging by power level, with
+normal power charging going up to 22kW and highpower charging going up to 200kW. While EVSEs with
+power ratings up to 500kW are globally available,
+they are largely applicable for heavy vehicles like
+buses and trucks.</p>
+<p>Normal power AC charging is adequate for e-2Ws,
+e-3Ws and e-cars. Normal power DC charging is unique
+to India, due to the prevalence of LEVs, and the use
+of low-voltage batteries in e-cars. Single-phase AC
+chargers, with a maximum power rating of 7kW, are
+adequate for LEVs and cars with single phase on-board
+chargers. Three-phase AC chargers, with a power rating
+up to 22kW, are required for e-cars with larger onboard chargers. Input power supply for normal power
+charging can be provided from the standard electricity
+distribution network.</p>
+<p>For high-voltage e-cars with battery capacities
+between 30-80kWh, high-power DC charging of 50kW
+is used. The power level of DC chargers in the market
+ranges between 25kW and 60kW. However higherpowered DC chargers will be available in the near
+future. While high-power DC charging takes less time
+for e-cars, it requires higher electricity supply with
+additional infrastructure. Normal power charging
+points are therefore adequate for most charging
+requirements, including slow or overnight charging
+of e-cars.</p>   
+</p>
+<p><b><h>PRINCIPLES OF LOCATION PLANNING FOR PUBLIC EV CHARGING</h></b></p>
+<p>
+<h4>MAXIMIZE ACCESSIBILITY</h4>
+<p>Accessibility may be understood as the ease of
+finding and getting to public charging facilities from
+any location. This includes areas of low estimated
+charging demand, which still need a minimum
+provision of charging infrastructure. Network planning
+and site selection play a role in improving EV charging
+accessibility. A greater number of distributed charging
+points in an area reduces the average distance EV
+users must travel to access public charging. Further,
+visibility of charging facilities, ease of entry and egress
+at charging sites, and their proximity to major roads
+can also influence their accessibility.</p> 
+<p><h4>MAXIMIZE UTILIZATION</h4>
+    <p>Public charging infrastructure should be located in
+        areas with charging demand to ensure high utilization.
+        Public charging demand at a given location will
+        depend on multiple parameters, including population
+        and employment densities, parking availability,
+        traffic volumes, presence of points of interest such
+        as commercial establishments, transit stations
+        or tourist destinations, etc. It also depends on the
+        availability of other private or semi-public charging
+        facilities in the area.</p>
+<p><h4>MINIMIZE COST </h4></p>
+<p>The cost of public charging infrastructure primarily
+    depends on three factors – the cost of EVSE, cost
+    of land, and cost of power supply. All three can be
+    significantly reduced by opting for a distributed
+    charging network of normal power charging points
+    that are less expensive and require less space and
+    electricity at any given location. </p>
+</p>
+<h4>ACCESSIBILITY</h4>
+<p>Indicators: Visibility, access from
+    major roads and local roads, 24x7 access
+    </p>
+<p><h4>UTILIZATION</h4></p>
+<P>Indicators: Population and employment
+    densities, traffic volumes, point of interest,
+    transit stations </P>
+</p>
+</div>
+    <!-- footer -->
+    <div class="cpy-right-agile-w3ls" id="footer">
+        <h2>About Us</h2>
+		<p> © Find Near by Charging Stations Website. All rights reserved | Design by @ Bhargava_Veera_Bhadra_Guduru @ 2023 </p>
+        <p>This is the website to find charging stations near by arond you in India. This website only provides best charging stations near you in limited only. This website is under consideration of project done by Stalwart Team </p>
+        <p> For any quaries or issues. Please Contact below:</p>
+        <ul>
+            <li>
+                <a href="https://www.linkedin.com/in/bhargava-veera-bhadra-guduru-515a2622b/">LinkedIn</a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com/veerabhadra._.guduri/">Instagram</a>
+            </li>
+            <li>
+                <a href="contact.html">Contact</a>
+            </li>
+        </ul>
+	</div>
+    <!--/footer-->
+</body>
+</html>
