@@ -6,7 +6,7 @@ This is the website where electrical vehicles find the near by charging stations
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=bhargava-design&label=Profile%20views&color=0e75b6&style=flat" alt="bhargava-design" /> </p>
 
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=bhargava-design" alt="bhargava-design" /></a> </p>
+
 
 - 🔭 We done the Project ["Deccan Electric Charging Stations](https://bhargava-design.github.io/Deccan-Electric-Charging-Stations/)
 
