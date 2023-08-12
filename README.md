@@ -38,3 +38,71 @@ This is the website where electrical vehicles find the near by charging stations
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=bhargava-design&show_icons=true&locale=en" alt="bhargava-design" /></p>
 
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=bhargava-design&" alt="bhargava-design" /></p>
+
+<p>
+<p>Problem Statement:</p>
+              <p>Todays fast moving world there is a huge impact of pollution occurs everywhere. Many of the global leaders and many of the industries show some interest on Electric vehicles to overcome the solution of air pollution while travelling.</p>
+               <p>As a part of this many are support to use charging vehicles instead of others which causes for pollution. But people hesitate to find the charging stations to charge up there vehicles.</p>
+ 
+<p>Our Solution/Description:</p> 
+	<p>In the rapidly evolving landscape of sustainable transportation, our innovative project, "Deccan Electric Charging Stations," offers an ingenious solution to enhance your electric vehicle (EV) experience. Our platform revolutionizes the way you navigate and access charging infrastructure, ensuring a seamless and eco-friendly journey.</p>
+    <p>Imagine embarking on a road trip or simply navigating your daily commute with the confidence of knowing that reliable charging stations are readily available at your fingertips. Our meticulously designed application employs cutting-edge technology to map out an extensive network of conveniently located charging stations, empowering you to make informed choices about your EV route.</p>
+      <p>As the popularity of electric vehicles continues to grow, the availability and accessibility of charging stations are crucial for EV adoption. Governments, businesses, and organizations are investing in expanding charging infrastructure to support the increasing number of electric vehicles on the road and promote sustainable transportation.</p>
+ 
+        <p>The Deccan_Electric_Charging_Stations project aims to empower electric vehicle owners by providing them with accurate, real-time information about charging stations, making the transition to electric mobility smoother and more convenient. By encouraging the use of electric vehicles and facilitating access to charging infrastructure, we strive to contribute to a greener and more sustainable future on the roads. We can store the particular user data for the charge like the charging station name, billing, charging type, how much time it too to charge. We can also provide user with the information that if user want to reach to a particular charging station will the current battery be enough to take the user on that location.</p>
+ 
+<p>We use the technologies & platforms to complete the project is as follows:</p>
+ <ul>
+<li>Web Development Technologies like HTML, CSS, JavaScript, React.js…</li>
+<li>Programming Language is Python as a backend </li>
+<li>Platform used: Visual Studios, IBM Cloud for Key Generation, Red-Hat open shift, IBM Cloud Object Storage Accounts, Kubernetes.</li>
+<li>For Deployment : Git-hub</li>
+</ul>
+
+<ul>Key Features:
+ 
+<li>1. Real-time Availability: Stay ahead of the curve by accessing real-time updates on charging station availability. No more guessing or last-minute detours; our platform ensures you always have access to the most up-to-date information.</li>
+ 
+<li>2. User-Friendly Interface: Our user-centric interface caters to both novice EV users and seasoned drivers. Seamlessly search, filter, and locate nearby charging stations, all with just a few taps.</li>
+ 
+<li>3. Customized Charging Routes: Tailor your journey based on your EV's battery capacity, allowing you to plan efficient pit stops and minimize range anxiety. Our platform considers factors such as distance, charging speed, and station compatibility.</li>
+ 
+<li>4. Charging Station Reviews: Benefit from the experiences of fellow EV enthusiasts by accessing user-generated reviews and ratings. Make informed decisions and choose the charging stations that best align with your preferences.</li>
+ 
+<li>5. Convenient Payment Options: Say goodbye to the hassle of multiple payment methods. Our unified payment system allows you to effortlessly settle your charging bills, promoting a seamless and cashless experience.</li>
+</ul>
+ 
+ 
+<p>References:</p>
+ 
+<p>The reference we taken for this project with the support of Smart Intern z and IBM is as follows:
+<a href:"https://rapidapi.com/zoal21301/api/electric-vehicle-charging-station-and-point/"> Reference 1</a>
+<a href:"https://rapidapi.com/mnai01/api/electric-vehicle-charging-stations/">Reference 2</a></p>
+ 
+<ul> 
+<p>Team Members: </p>
+ 
+<li>Team Leader: Guduru Bhargava Veera Bhadra</li>
+<li>Education Back-Ground: Data-Science </li>
+<li>From: "Chalapathi Institute of Engineering & Technology Autonomous".</li>
+<li>Roll: Developer and Coordination. </li>
+<li>Email Id: guduribhargava@gmail.com</li>
+
+<li>Team Member: Akula Pavaneswar.</li>
+<li>Education Back-Ground: Data-Science </li>
+<li>From: "Chalapathi Institute of Engineering & Technology Autonomous".</li>
+<li>Roll: Designer and Developer.</li>
+<li>Email Id:pavaeswar256@gmail.com</li>
+ 
+<li>Team Member Name: Mr. Gaddam Raghu Varma</li>
+<li>Education Back-Ground: Data-Science </li>
+<li>From: "Chalapathi Institute of Engineering & Technology Autonomous".</li>
+<li>Roll: Tester and Debugger.</li>
+<li>Email Id: raghuvarma17633@gmail.com</li>
+</ul>
+<p>
+Join us on this sustainable revolution as we reshape the way you navigate the world of electric mobility. Whether you're an early adopter, a climate-conscious commuter, or an avid road-tripper, "Charging Stations Near You" is your dedicated companion for an electrifying journey towards a greener future.</p>
+ 
+<p>Experience the future of EV travel today. Download our app and embark on a smarter, more sustainable driving experience. Together, we're driving change, one charge at a time.<p>
+
+</p>
