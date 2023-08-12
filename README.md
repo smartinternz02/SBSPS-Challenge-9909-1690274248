@@ -1,7 +1,7 @@
 # Deccan-Electric-Charging-Stations
 This is the website where electrical vehicles find the near by charging stations To charge their vehicles
 
-<h1 align="center">Hi 👋, Our Team Cloud_Coders</h1>
+<h1 align="center">Team Cloud_Coders</h1>
 <h3 align="center">We are the passionate full-stack developers from India</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=bhargava-design&label=Profile%20views&color=0e75b6&style=flat" alt="bhargava-design" /> </p>
