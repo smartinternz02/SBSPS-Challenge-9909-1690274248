@@ -49,7 +49,7 @@ This is the website where electrical vehicles find the near by charging stations
     <p>Imagine embarking on a road trip or simply navigating your daily commute with the confidence of knowing that reliable charging stations are readily available at your fingertips. Our meticulously designed application employs cutting-edge technology to map out an extensive network of conveniently located charging stations, empowering you to make informed choices about your EV route.</p>
       <p>As the popularity of electric vehicles continues to grow, the availability and accessibility of charging stations are crucial for EV adoption. Governments, businesses, and organizations are investing in expanding charging infrastructure to support the increasing number of electric vehicles on the road and promote sustainable transportation.</p>
  
-        <p>The Deccan_Electric_Charging_Stations project aims to empower electric vehicle owners by providing them with accurate, real-time information about charging stations, making the transition to electric mobility smoother and more convenient. By encouraging the use of electric vehicles and facilitating access to charging infrastructure, we strive to contribute to a greener and more sustainable future on the roads. We can store the particular user data for the charge like the charging station name, billing, charging type, how much time it too to charge. We can also provide user with the information that if user want to reach to a particular charging station will the current battery be enough to take the user on that location.</p>
+        https://bhargava-design.github.io/Deccan-Electric-Charging-Stations/
  
 <p>We use the technologies & platforms to complete the project is as follows:</p>
  <ul>
