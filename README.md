@@ -109,9 +109,12 @@ Join us on this sustainable revolution as we reshape the way you navigate the wo
 <ul>
 <li> Bhargava Veerabhadra (Leader) </li>
 <li> Pawaneswar Akula (Developer)</li>
-<li> Raghu Varma Gaddam (Tester and Debugger) </li>
+<li> Raghu Varma Gaddam (Tester and Debugger)</li>
 </ul>
 
 <p><h1>Courses done for this project</h1></p>
-[Getting_Started_with_Enterprise_Data_Science_Badge20230818-28-opq27j.pdf](https://github.com/smartinternz02/SBSPS-Challenge-9909-1690274248/files/12380974/Getting_Started_with_Enterprise_Data_Science_Badge20230818-28-opq27j.pdf)
+
+![journey-to-cloud-envisioning-your-solution](https://github.com/smartinternz02/SBSPS-Challenge-9909-1690274248/assets/84629488/455126e1-15a1-407b-9e19-fc9abe572662)
+![getting-started-with-enterprise-data-science](https://github.com/smartinternz02/SBSPS-Challenge-9909-1690274248/assets/84629488/4a6c9a4d-91d2-4151-ba41-aecbfb6ec7b2)
 </p>
+
