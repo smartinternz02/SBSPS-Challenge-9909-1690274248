@@ -107,8 +107,8 @@ Join us on this sustainable revolution as we reshape the way you navigate the wo
 
 <p> The team- mates are: </p>
 <ul>
-1. Bhargava Veerabhadra (Leader)
+<li>1. Bhargava Veerabhadra (Leader)
 2. Pawaneswar Akula (Developer)
-3. Raghu Varma Gaddam (Tester and Debugger) 
+3. Raghu Varma Gaddam (Tester and Debugger) </li>
 </ul>
 </p>
