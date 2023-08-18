@@ -105,4 +105,10 @@ Join us on this sustainable revolution as we reshape the way you navigate the wo
  
 <p>Experience the future of EV travel today. Download our app and embark on a smarter, more sustainable driving experience. Together, we're driving change, one charge at a time.<p>
 
+<p> The team- mates are: </p>
+<ul>
+1. Bhargava Veerabhadra (Leader)
+2. Pawaneswar Akula (Developer)
+3. Raghu Varma Gaddam (Tester and Debugger) 
+</ul>
 </p>
