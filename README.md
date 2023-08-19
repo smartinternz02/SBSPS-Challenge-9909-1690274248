@@ -117,7 +117,16 @@ Join us on this sustainable revolution as we reshape the way you navigate the wo
 ![journey-to-cloud-envisioning-your-solution](https://github.com/smartinternz02/SBSPS-Challenge-9909-1690274248/assets/84629488/455126e1-15a1-407b-9e19-fc9abe572662)
 ![getting-started-with-enterprise-data-science](https://github.com/smartinternz02/SBSPS-Challenge-9909-1690274248/assets/84629488/4a6c9a4d-91d2-4151-ba41-aecbfb6ec7b2)
 <p><h1>Output for the above project</h1></p>
-![Screenshot 2023-08-19 161015](https://github.com/smartinternz02/SBSPS-Challenge-9909-1690274248/assets/84629488/da4c34c3-6217-4bd6-88fc-a4c219c5b922)
 
+![Screenshot 2023-08-19 161015](https://github.com/smartinternz02/SBSPS-Challenge-9909-1690274248/assets/84629488/da4c34c3-6217-4bd6-88fc-a4c219c5b922)
+![Screenshot 2023-08-19 161041](https://github.com/smartinternz02/SBSPS-Challenge-9909-1690274248/assets/84629488/baa606cd-a2ab-4506-a553-e94a678405bd)
+![Screenshot 2023-08-19 161102](https://github.com/smartinternz02/SBSPS-Challenge-9909-1690274248/assets/84629488/d5226ed9-079a-4313-9bcc-dfbd853158a1)
+![Screenshot 2023-08-19 161142](https://github.com/smartinternz02/SBSPS-Challenge-9909-1690274248/assets/84629488/d674bd68-f395-4c9d-9770-2933178d796e)
+![Screenshot 2023-08-19 161211](https://github.com/smartinternz02/SBSPS-Challenge-9909-1690274248/assets/84629488/219ad31d-7036-4050-9bcf-e399e7b94aba)![Screenshot 2023-08-19 161223](https://github.com/smartinternz02/SBSPS-Challenge-9909-1690274248/assets/84629488/2689054c-9942-4204-bed7-6c630aaadf6a)
+![Screenshot 2023-08-19 161239](https://github.com/smartinternz02/SBSPS-Challenge-9909-1690274248/assets/84629488/fb3d764c-9903-4f42-9eef-237fdd679cd0)
+![Screenshot 2023-08-19 161426](https://github.com/smartinternz02/SBSPS-Challenge-9909-1690274248/assets/84629488/0b7636a8-cb74-477f-b54e-d29af04dbd9a)
+![Screenshot 2023-08-19 161509](https://github.com/smartinternz02/SBSPS-Challenge-9909-1690274248/assets/84629488/c05be2e6-4943-4d0a-a762-eb13c8c448a8)
+
+<h1> Thank You </h1>
 </p>
 
