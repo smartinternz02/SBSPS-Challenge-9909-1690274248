@@ -116,5 +116,14 @@ Join us on this sustainable revolution as we reshape the way you navigate the wo
 
 ![journey-to-cloud-envisioning-your-solution](https://github.com/smartinternz02/SBSPS-Challenge-9909-1690274248/assets/84629488/455126e1-15a1-407b-9e19-fc9abe572662)
 ![getting-started-with-enterprise-data-science](https://github.com/smartinternz02/SBSPS-Challenge-9909-1690274248/assets/84629488/4a6c9a4d-91d2-4151-ba41-aecbfb6ec7b2)
+<p><h1>Output for the above project</h1></p>
+<p>
+<li>
+![Home page](https://github.com/Bhargava-design/Deccan-Electric-Charging-Stations/assets/84629488/6f0aa4b7-4aa5-4395-8f3b-b4540c343c51)
+![Map Image](https://github.com/Bhargava-design/Deccan-Electric-Charging-Stations/assets/84629488/228a1d0e-c249-49f5-8d52-2e080eb542f1)
+![Uploading Screenshot 2023-08-19 161223.png…]()
+![Uploading Screenshot 2023-08-19 161211.png…]()
+</li>
+</p>
 </p>
 
