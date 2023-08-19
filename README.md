@@ -117,11 +117,6 @@ Join us on this sustainable revolution as we reshape the way you navigate the wo
 ![journey-to-cloud-envisioning-your-solution](https://github.com/smartinternz02/SBSPS-Challenge-9909-1690274248/assets/84629488/455126e1-15a1-407b-9e19-fc9abe572662)
 ![getting-started-with-enterprise-data-science](https://github.com/smartinternz02/SBSPS-Challenge-9909-1690274248/assets/84629488/4a6c9a4d-91d2-4151-ba41-aecbfb6ec7b2)
 <p><h1>Output for the above project</h1></p>
-<p>
-<li>
 ![Screenshot 2023-08-19 161015](https://github.com/smartinternz02/SBSPS-Challenge-9909-1690274248/assets/84629488/5ba6f2db-891d-44cc-aa89-31b176289df8)
-
-</li>
-</p>
 </p>
 
