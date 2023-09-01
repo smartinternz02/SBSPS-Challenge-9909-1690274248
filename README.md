@@ -113,14 +113,19 @@ Join us on this sustainable revolution as we reshape the way you navigate the wo
 </ul>
 
 <p><h1>Courses done for this project</h1></p>
+
 ![Screenshot 2023-09-01 145424](https://github.com/smartinternz02/SBSPS-Challenge-9909-1690274248/assets/84629488/0be16d33-1fa6-4d22-923e-c8968f7d9a64)
 <br>
+
 ![Screenshot 2023-09-01 145452](https://github.com/smartinternz02/SBSPS-Challenge-9909-1690274248/assets/84629488/38983d88-d57a-4284-9067-2218ad743380)
 <br>
+
 ![Screenshot 2023-09-01 145826](https://github.com/smartinternz02/SBSPS-Challenge-9909-1690274248/assets/84629488/a3e1d6d6-ca64-4f3e-8209-6753a8c6eedf)
 <br>
+
 ![Screenshot 2023-09-01 145952](https://github.com/smartinternz02/SBSPS-Challenge-9909-1690274248/assets/84629488/cdc5b2c1-3b85-4a14-acc0-91624b14b968)
 <br><br>
+
 ![Pavaneswar_certificate2](https://github.com/smartinternz02/SBSPS-Challenge-9909-1690274248/assets/84629488/d8075df6-ebe3-4ffa-81cd-385670e3d90b)
 
 ![Pavaneswar_Certificate1](https://github.com/smartinternz02/SBSPS-Challenge-9909-1690274248/assets/84629488/ee491f94-7d41-4623-a685-e46dce3ecd11)
@@ -128,7 +133,9 @@ Join us on this sustainable revolution as we reshape the way you navigate the wo
 <p><h1>Output for the above project</h1></p>
 
 ![Screenshot 2023-08-19 161015](https://github.com/smartinternz02/SBSPS-Challenge-9909-1690274248/assets/84629488/da4c34c3-6217-4bd6-88fc-a4c219c5b922)
+
 ![Screenshot 2023-08-19 161041](https://github.com/smartinternz02/SBSPS-Challenge-9909-1690274248/assets/84629488/baa606cd-a2ab-4506-a553-e94a678405bd)
+
 ![Screenshot 2023-08-19 161102](https://github.com/smartinternz02/SBSPS-Challenge-9909-1690274248/assets/84629488/d5226ed9-079a-4313-9bcc-dfbd853158a1)
 ![Screenshot 2023-08-19 161142](https://github.com/smartinternz02/SBSPS-Challenge-9909-1690274248/assets/84629488/d674bd68-f395-4c9d-9770-2933178d796e)
 ![Screenshot 2023-08-19 161211](https://github.com/smartinternz02/SBSPS-Challenge-9909-1690274248/assets/84629488/219ad31d-7036-4050-9bcf-e399e7b94aba)![Screenshot 2023-08-19 161223](https://github.com/smartinternz02/SBSPS-Challenge-9909-1690274248/assets/84629488/2689054c-9942-4204-bed7-6c630aaadf6a)
