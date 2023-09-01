@@ -113,9 +113,17 @@ Join us on this sustainable revolution as we reshape the way you navigate the wo
 </ul>
 
 <p><h1>Courses done for this project</h1></p>
+![Screenshot 2023-09-01 145424](https://github.com/smartinternz02/SBSPS-Challenge-9909-1690274248/assets/84629488/0be16d33-1fa6-4d22-923e-c8968f7d9a64)
+<br>
+![Screenshot 2023-09-01 145452](https://github.com/smartinternz02/SBSPS-Challenge-9909-1690274248/assets/84629488/38983d88-d57a-4284-9067-2218ad743380)
+<br>
+![Screenshot 2023-09-01 145826](https://github.com/smartinternz02/SBSPS-Challenge-9909-1690274248/assets/84629488/a3e1d6d6-ca64-4f3e-8209-6753a8c6eedf)
+<br>
+![Screenshot 2023-09-01 145952](https://github.com/smartinternz02/SBSPS-Challenge-9909-1690274248/assets/84629488/cdc5b2c1-3b85-4a14-acc0-91624b14b968)
+<br><br>
+![Pavaneswar_certificate2](https://github.com/smartinternz02/SBSPS-Challenge-9909-1690274248/assets/84629488/d8075df6-ebe3-4ffa-81cd-385670e3d90b)
 
-[Getting_Started_with_Enterprise_Data_Science_Badge20230818-28-opq27j.pdf](https://github.com/smartinternz02/SBSPS-Challenge-9909-1690274248/files/12496455/Getting_Started_with_Enterprise_Data_Science_Badge20230818-28-opq27j.pdf)
-
+![Pavaneswar_Certificate1](https://github.com/smartinternz02/SBSPS-Challenge-9909-1690274248/assets/84629488/ee491f94-7d41-4623-a685-e46dce3ecd11)
 
 <p><h1>Output for the above project</h1></p>
 
